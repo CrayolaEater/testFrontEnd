@@ -1,0 +1,209 @@
+@font-face
+{
+    font-family: 'MyFont';
+    src: url('assets/font/Montserrat-Medium.eot');
+    src: url('assets/font/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+         url('assets/font/Montserrat-Medium.woff') format('woff'),
+         url('assets/font/Montserrat-Medium.ttf')  format('truetype'),
+         url('assets/font/Montserrat-Medium.svg#svgFontName') format('svg');
+}
+body
+{
+    background-image: url("assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.animation_btn
+{
+    float: left;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    overflow: visible;
+    top: -170px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(17, 17, 17);
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    width: 80%;
+    height: 160%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.animation_btn:focus
+{
+    z-index: 100;
+    transform: translateY(210px) scale(2) translateX(150px);
+    transition: 0.5s;
+}
+.layout-element
+{
+    margin-top: 3%;
+    margin-bottom: 10%;
+    padding: 5%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 30px 30px 20px rgba(0,0,0,0.05), 0 10px 20px 0 rgba(0,0,0,0.019);
+}
+#main_element
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p
+{
+    text-align: left;
+    color: black;
+    font-size: 18px;
+    font-family: 'MyFont', Helvetica, sans-serif;
+}
+#body_div
+{
+    text-align: center;
+    width: 1100px;
+}
+#top_button
+{
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(17, 17, 17);
+    padding: 20px;
+    border: none;
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: 'MyFont', Helvetica, sans-serif;
+}
+.regist_btn
+{
+    cursor: pointer;
+    outline: none;
+    background-color: #f46632;
+    font-family: 'MyFont';
+    color: white;
+    border: none;
+    padding-top: 3%;
+    width: 60%;
+    height: 12%;
+    font-size: 100%;
+    padding-bottom: 3%;
+    padding-right: 15%;
+    padding-left: 15%;
+    border-radius: 15px;
+}
+.fill_container
+{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.contact_btn
+{
+    cursor: pointer;
+    outline: none;
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+}
+.course_btn
+{
+    outline: none;
+    font-family: 'MyFont', Helvetica, sans-serif;
+    margin: 0px;
+    border-color: black;
+    background-color: white;
+    font-size: 11px;
+    color: black;
+    width: 25%;
+    height: 45%;
+    cursor: pointer;
+}
+.course_btn:active
+{
+    color: white;
+    background-color: black;
+}
+#course_text
+{
+    font-size: 15px;
+}
+.arrow_btn
+{  
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 0%;
+    padding: 0%;
+    width: 25px;
+    height: 15px;
+}
+.about_master_btn
+{
+    border: none;
+    background-image: url(assets/aboutMaster.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 60%;
+}
+.master_span
+{
+    background-size: 100% 100%;
+    width: 23%;
+    height: 90%;
+    float: left;
+}
+.master_inspan
+{
+    display: none;
+    align-items: center;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.4);
+}
+.master_span:hover .master_inspan
+{
+    display: flex;
+}
+.days_left
+{
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'MyFont', Helvetica, sans-serif;
+    border-radius: 10px;
+    width: 10%;
+    height: 50%;
+    font-size: 130%;
+}
+.date_input
+{
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+    font-family: 'MyFont', Helvetica, sans-serif;
+    border-radius: 15px;
+    width: 45%;
+    height: 90%;
+    font-size: 200%;
+}
